@@ -1,0 +1,5 @@
+//Maya 2008 Project Definition
+
+workspace -ot "scene" "Scene";
+workspace -fr "particles" "particles";
+workspace -rt "sourceImages" "Textures";
