@@ -34,12 +34,12 @@ public class HeartContainerScript : MonoBehaviour {
         {
             if(phase == 2)
             {
-                audio.Play();
+                GetComponent<AudioSource>().Play();
                 //start heart beating, on loop
             }
             if(phase == 4)
             {
-                audio.Stop();
+                GetComponent<AudioSource>().Stop();
 				inspector.GetComponent<MouseLook>().freeCursor();
 				Application.LoadLevel("Win");
                 //stop heart beating

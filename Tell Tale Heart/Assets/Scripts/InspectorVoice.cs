@@ -27,14 +27,14 @@ public class InspectorVoice : MonoBehaviour {
 			int randomNumber = (int)Random.Range(0, 100);
 			if(randomNumber <5)
 			{
-				audio.clip = soundBytes[0];
-				audio.Play();
+				GetComponent<AudioSource>().clip = soundBytes[0];
+				GetComponent<AudioSource>().Play();
 			}
 			else
 			{
 				randomNumber = (int)Random.Range(1, soundBytes.Length);
-				audio.clip = soundBytes[randomNumber];
-				audio.Play ();
+				GetComponent<AudioSource>().clip = soundBytes[randomNumber];
+				GetComponent<AudioSource>().Play ();
 			}
 		}
 	}
