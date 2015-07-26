@@ -4,6 +4,9 @@ using System.Collections;
 
 public class HeartContainerScript : MonoBehaviour {
    
+
+	float inspectDistance = 4;	//edit later to make public
+
     bool isHeart = false;
     int phase = 0;
 	GameObject inspector;
@@ -64,10 +67,13 @@ public class HeartContainerScript : MonoBehaviour {
         }
     }
    
-    void OnMouseUp()
+    void OnMouseDown()
     {
-        
-        if(isHeart)
+		float distanceToObject = Vector3.Distance (inspector.transform.position, gameObject.transform.position);
+		Debug.Log (Vector3.Distance(inspector.transform.position, gameObject.transform.position));
+		Debug.Log (this.name);
+
+		if(isHeart && distanceToObject<inspectDistance)
         {
             setPhase(4);
             Debug.Log("Found it");
@@ -75,7 +81,7 @@ public class HeartContainerScript : MonoBehaviour {
             //change phase of game to 4
             //wingame
         }
-        else
+		else if (distanceToObject<inspectDistance)
         {
             inspector.GetComponent<InspectorVoice>().speak();
 			//tell player to stop moving for a sec
