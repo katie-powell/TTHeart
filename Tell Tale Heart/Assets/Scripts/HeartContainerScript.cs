@@ -7,11 +7,28 @@ public class HeartContainerScript : MonoBehaviour {
     bool isHeart = false;
     int phase = 0;
 	GameObject inspector;
+	AudioSource myAudio;
    
     // Use this for initialization
     void Start ()
     {
-   		inspector = GameObject.Find ("Inspector");
+		inspector = GameObject.Find ("Inspector");
+
+		myAudio = gameObject.GetComponent<AudioSource> ();
+		myAudio.bypassEffects = true;
+		myAudio.loop = true;
+		myAudio.priority = 185;
+		myAudio.volume = 1;
+		myAudio.pitch = 1;
+		myAudio.spatialBlend = 1;
+		myAudio.reverbZoneMix = 1;
+		myAudio.dopplerLevel = 1;
+		myAudio.rolloffMode = AudioRolloffMode.Logarithmic;
+		myAudio.minDistance = 1;
+		myAudio.maxDistance = 500;
+		myAudio.spread = 175;
+
+
     }
    
     // Update is called once per frame
