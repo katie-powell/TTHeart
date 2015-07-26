@@ -3,10 +3,29 @@ guid: 1357b87d59c8d254499c22a5cc3f7081
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
+    100000: Chaise
+    100002: Couch
+    100004: //RootNode
+    100006: Throw
+    100008: Throw_Pill
+    400000: Chaise
+    400002: Couch
+    400004: //RootNode
+    400006: Throw
+    400008: Throw_Pill
+    2300000: Chaise
+    2300002: Couch
+    2300004: Throw
+    2300006: Throw_Pill
+    3300000: Chaise
+    3300002: Couch
+    3300004: Throw
+    3300006: Throw_Pill
     4300000: Chaise
     4300002: Couch
     4300004: Throw_Pill
     4300006: Throw
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0

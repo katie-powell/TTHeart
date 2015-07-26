@@ -3,8 +3,19 @@ guid: b9f6b132651660b4ea4e4eca649557de
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
+    100000: cama02
+    100002: //RootNode
+    100004: cox_o
+    400000: cama02
+    400002: //RootNode
+    400004: cox_o
+    2300000: cama02
+    2300002: cox_o
+    3300000: cama02
+    3300002: cox_o
     4300000: cama02
     4300002: cox_o
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0

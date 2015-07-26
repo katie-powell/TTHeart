@@ -3,7 +3,14 @@ guid: 3221c3917d6536c438997a4022933228
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
+    100000: glass_glass
+    100002: //RootNode
+    400000: glass_glass
+    400002: //RootNode
+    2300000: glass_glass
+    3300000: glass_glass
     4300000: glass_glass
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0

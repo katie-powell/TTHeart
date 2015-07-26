@@ -3,6 +3,44 @@ guid: dceee30e65a155841b4adbf0ecf65a04
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
+    100000: //RootNode
+    100002: mesh01
+    100004: mesh02
+    100006: mesh03
+    100008: mesh04
+    100010: mesh05
+    100012: mesh06
+    100014: mesh07
+    100016: mesh08
+    100018: mesh09
+    400000: //RootNode
+    400002: mesh01
+    400004: mesh02
+    400006: mesh03
+    400008: mesh04
+    400010: mesh05
+    400012: mesh06
+    400014: mesh07
+    400016: mesh08
+    400018: mesh09
+    2300000: mesh01
+    2300002: mesh02
+    2300004: mesh03
+    2300006: mesh04
+    2300008: mesh05
+    2300010: mesh06
+    2300012: mesh07
+    2300014: mesh08
+    2300016: mesh09
+    3300000: mesh01
+    3300002: mesh02
+    3300004: mesh03
+    3300006: mesh04
+    3300008: mesh05
+    3300010: mesh06
+    3300012: mesh07
+    3300014: mesh08
+    3300016: mesh09
     4300000: mesh01
     4300002: mesh02
     4300004: mesh03
@@ -12,6 +50,7 @@ ModelImporter:
     4300012: mesh07
     4300014: mesh08
     4300016: mesh09
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0

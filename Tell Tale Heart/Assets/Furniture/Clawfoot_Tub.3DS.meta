@@ -3,6 +3,36 @@ guid: 59b1b76bfd27655498380bd39ed1a9e7
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
+    100000: //RootNode
+    100002: facuet
+    100004: pipes
+    100006: tub
+    100008: tub_leg
+    100010: tub_leg01
+    100012: tub_leg02
+    100014: tub_leg03
+    400000: //RootNode
+    400002: facuet
+    400004: pipes
+    400006: tub
+    400008: tub_leg
+    400010: tub_leg01
+    400012: tub_leg02
+    400014: tub_leg03
+    2300000: facuet
+    2300002: pipes
+    2300004: tub
+    2300006: tub_leg
+    2300008: tub_leg01
+    2300010: tub_leg02
+    2300012: tub_leg03
+    3300000: facuet
+    3300002: pipes
+    3300004: tub
+    3300006: tub_leg
+    3300008: tub_leg01
+    3300010: tub_leg02
+    3300012: tub_leg03
     4300000: tub_leg
     4300002: tub_leg01
     4300004: tub_leg02
@@ -10,6 +40,7 @@ ModelImporter:
     4300008: pipes
     4300010: facuet
     4300012: tub
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0

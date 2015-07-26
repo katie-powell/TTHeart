@@ -3,11 +3,36 @@ guid: bbb9d5ba2e8867d438bb8e0954994a62
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
+    100000: Camera03.T.target
+    100002: ChamferCy0
+    100004: ChamferCyl
+    100006: Circle02
+    100008: Cylinder01
+    100010: Cylinder02
+    100012: //RootNode
+    400000: Camera03.T.target
+    400002: ChamferCy0
+    400004: ChamferCyl
+    400006: Circle02
+    400008: Cylinder01
+    400010: Cylinder02
+    400012: //RootNode
+    2300000: ChamferCy0
+    2300002: ChamferCyl
+    2300004: Circle02
+    2300006: Cylinder01
+    2300008: Cylinder02
+    3300000: ChamferCy0
+    3300002: ChamferCyl
+    3300004: Circle02
+    3300006: Cylinder01
+    3300008: Cylinder02
     4300000: Circle02
     4300002: ChamferCyl
     4300004: Cylinder01
     4300006: ChamferCy0
     4300008: Cylinder02
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0

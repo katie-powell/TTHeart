@@ -3,7 +3,38 @@ guid: 5653313152a13f148bcdbf53de326db5
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
+    100000: bed
+    100002: Camera01
+    100004: Camera01.target
+    100006: Camera02
+    100008: Camera02.target
+    100010: Camera03
+    100012: Camera03.target
+    100014: Camera04
+    100016: Camera04.target
+    100018: Light01
+    100020: Light01.target
+    100022: Light02
+    100024: Light02.target
+    100026: //RootNode
+    400000: bed
+    400002: Camera01
+    400004: Camera01.target
+    400006: Camera02
+    400008: Camera02.target
+    400010: Camera03
+    400012: Camera03.target
+    400014: Camera04
+    400016: Camera04.target
+    400018: Light01
+    400020: Light01.target
+    400022: Light02
+    400024: Light02.target
+    400026: //RootNode
+    2300000: bed
+    3300000: bed
     4300000: bed
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0

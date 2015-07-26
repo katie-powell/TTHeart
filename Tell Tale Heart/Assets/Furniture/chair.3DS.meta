@@ -3,8 +3,21 @@ guid: 8896783825ce1e949b1fc40868c8e561
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
+    100000: //RootNode
+    100002: Object31
+    100004: Plane01
+    100006: VRaySun01..target
+    400000: //RootNode
+    400002: Object31
+    400004: Plane01
+    400006: VRaySun01..target
+    2300000: Object31
+    2300002: Plane01
+    3300000: Object31
+    3300002: Plane01
     4300000: Object31
     4300002: Plane01
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
