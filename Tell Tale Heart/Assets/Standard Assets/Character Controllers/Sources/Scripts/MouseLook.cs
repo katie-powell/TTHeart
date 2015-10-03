@@ -73,6 +73,7 @@ public class MouseLook : MonoBehaviour {
 	
 	public void freeCursor()
 	{
+		//this frees the cursor
 		//unlock cursor
 		//show cursor
 		Screen.lockCursor = false;
