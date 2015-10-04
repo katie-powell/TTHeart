@@ -4,8 +4,16 @@ using System.Collections;
 public class EnemyMovement : MonoBehaviour
 {
     Transform player;
-    NavMeshAgent nav;
+    public NavMeshAgent nav;
+	public float speed;
 
+	bool is_waiting = false;
+
+	void Start ()
+	{
+		StartCoroutine ("TenSecondTimer");
+
+	}
 
     void Awake ()
     {
@@ -13,12 +21,24 @@ public class EnemyMovement : MonoBehaviour
         nav = GetComponent <NavMeshAgent> ();
     }
 
+	IEnumerator TenSecondTimer()
+	{
+		while (true) {
+			yield return new WaitForSeconds(10);
+			is_waiting = true;
+			yield return new WaitForSeconds(1.5f);
+			is_waiting = false;
+		}
+	}
 
     void Update ()
     {
 
-            nav.SetDestination (player.position);
-        
+		if (is_waiting == false) {
+			nav.SetDestination (player.position);
+		} else {
+			nav.SetDestination (this.transform.position);
+		}
 
     }
 }
